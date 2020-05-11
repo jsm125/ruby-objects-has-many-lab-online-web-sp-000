@@ -14,10 +14,10 @@ attr_accessor :title, :author
   end
 
   def author_name
-    if author
-      self.author.name 
-    else
+    if @author  == nil
       nil
+    else
+      @author.name
     end
   end
 end
