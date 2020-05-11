@@ -18,7 +18,7 @@ attr_accessor :title, :author
     #   post.author_name == self 
     # end
    
-    post.author_name
+    post.author_name = self
   end
   end
 end
