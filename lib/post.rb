@@ -20,4 +20,5 @@ attr_accessor :title, :author
     Post.all.select do |author_name|
     post.author_name
   end
+  end
 end
