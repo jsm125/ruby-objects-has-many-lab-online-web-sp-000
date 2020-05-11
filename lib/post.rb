@@ -14,8 +14,8 @@ attr_accessor :title, :author
   end
 
   def author_name 
-    Post.all.select do |post|
-      post.author_name == self 
-    end
+    # Post.all.select do |post|
+    #   post.author_name == self 
+    # end
   end
 end
